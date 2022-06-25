@@ -1,0 +1,126 @@
+*{
+    background-color: #000;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+.portada{
+    text-align: center;
+    background-color: #000;
+    
+}
+
+.titulo {
+ color: rgb(253, 249, 249);   
+ margin-bottom: 0px;
+}
+
+.titulo2 {
+ color: rgb(253, 249, 249);   
+ margin-bottom: 0px;
+}
+
+.titulo3 {
+    color: rgb(253, 249, 249);   
+    font-size: small;
+   }
+.boton-personalizado {
+    text-decoration:none;
+    font-weight:300;
+    font-size:15px;
+    color:#1f0303;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:40px;
+    padding-right:40px;
+    background-color:#f1f1e7;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        color:#fff;
+    }
+.cont1 {
+        position: relative;
+        align-items: center;
+        display: flex;
+    }
+.cont2 {
+        position: relative;
+        align-items: center;
+        display: flex;
+    }
+nav a{
+    text-decoration:none;
+    color:inherit;
+    font-size:14px;
+    }
+
+nav li{
+    display:inline-block;
+    margin: 25px;
+    background-color:#000;
+    color:#fff;
+    }
+
+
+img {
+    width: 100%;
+    height: auto;
+    }
+
+main div img{
+    width: 24%;
+    border-radius: 10px;
+
+}
+main div img:hover{
+    transform: scale(0.9);
+    opacity: 0.4;
+    filter: alpha(opacity=100);
+}
+.hover-galeria{
+    position: absolute;
+    transform: scale(1.2);
+    background: rgba(167, 10, 21, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 40px;
+}
+
+
+.finder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .finder input[type=text]{
+    width:400px;
+    height:30px;
+    border-radius:25px;
+}
+footer{
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+footer img{
+    width: 10%;
+    height: 10%;
+    
+}
+
+@media only screen and (max-width: 768px) {
+    [class*="img"] {
+      width: 100%;
+    }
+  }
+
+
+
